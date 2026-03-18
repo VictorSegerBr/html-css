@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    border: 2PX SOLID RED;
+
+    display: flex;
+}
+
+.box {
+    background-color: #ddd;
+    border: 1px solid green;
+    width: 60px;
+    height: 60px;
+    flex: 1 1 100px;
+}
+#item3 {
+    order: 1;
+}
+#item1 {
+    order: 2;
+}
+#item2 {
+    order: 3;
+}
